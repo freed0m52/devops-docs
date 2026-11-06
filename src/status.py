@@ -2,11 +2,7 @@
 
 
 def format_status(version: str, deployed: bool) -> str:
-<<<<<<< HEAD
     """Возвращает человекочитаемое состояние публикации."""
-=======
-    details = "temporary"
->>>>>>> ee670c0 (fix: prepare detailed status message)
     state = "deployed" if deployed else "draft"
     return f"{version}: {state}"
 
