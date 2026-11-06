@@ -1,0 +1,13 @@
+site_name: DevOPs Operations Handbook
+site_description: Учебная документация по проверке и публикация изменений
+site_author: "Серов Михаил Евгеньевич"
+repo_name: freed0m52/devops-docs
+repo_url: https://github.com/freed0m52/devops-docs
+theme:
+    name: mkdocs
+    locale: ru
+
+nav:
+    - Главная: index.md
+    - Эксплуатация: runbook.md
+    - Журнал инцидентов: incidents.md
